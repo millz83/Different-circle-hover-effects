@@ -1,0 +1,188 @@
+body {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+  }
+  
+  /* ----- Button 1 ----- */
+  
+  .div1 {
+    text-decoration: none;
+    color: #88b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border-color: #88b;
+    cursor: pointer;
+    opacity: 1;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 200px;
+  }
+  
+  
+  
+  .div1:hover {
+    width: 250px;
+    height: 250px;
+    transition: 0.6s all;
+    opacity: 0;
+    font-size: 40px;
+  }
+  
+  .seconddiv1 {
+    width: 0px;
+    height: 0px;
+    background: #88b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: auto;
+    position: absolute;
+    margin-right: auto;
+    top: 50%;
+    left: 200px;
+    border: 2px solid;
+    border-color: #88b;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 0;
+    opacity: 0;
+    transition: 0.3s all;
+    font-size: 0px;
+    color: white;
+  }
+  
+  .div1:hover + .seconddiv1 {
+    opacity: 1;
+    width: 200px;
+    height: 200px;
+    transition: 0.3s all;
+    font-size: 30px;
+  }
+  
+  /* ----- Button 2 ----- */
+  
+  .div2 {
+    position: absolute;
+    text-decoration: none;
+    color: #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border-color: #bbb;
+    cursor: pointer;
+    top: 50%;
+    transition: 0.5s all;
+    left: 500px;
+    z-index: 1;
+  }
+  
+  .seconddiv2 {
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 500px;
+    transform: translate(-50%, -50%);
+    color: #bbb;
+    z-index: 0;
+    font-size: 30px;
+    transition: 0.5s all;
+  }
+  
+  .div2:hover {
+    width: 180px;
+    height: 180px;
+    transition: 0.5s all;
+  }
+  
+  .div2:hover + .seconddiv2 {
+    transition: 0.5s all;
+    font-size: 35px;
+  }
+  
+  /* ----- Button 3 ----- */
+  
+  .div3 {
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 800px;
+    transition: 0.3s all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #bbb; 
+  }
+  
+  .link {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: #bbb;
+    position: absolute;
+    transform: translate(-50%, -50%) rotate(0deg);
+    top: 50%;
+    left:800px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s all;
+  }
+  
+  .link:hover {
+    transition: 0.3s all;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-radius: 0%;
+    width: 165px;
+    height: 165px;
+  }
+  
+  /* ----- Button 4 ----- */
+  
+  .div4 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 1100px;
+    width: 200px;
+    height: 70px;
+    border-radius: 35px;
+    border: 2px solid;
+    border-color: rgb(37,126,199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(37,126,199);
+    text-decoration: none;
+    transition: 0.3s all;
+  }
+  
+  .div4:hover {
+    color: #fff;
+    background-color: rgb(37, 126, 199);
+    transition:0.3s all;
+  }
+  
+  
